@@ -27,8 +27,9 @@
 	$: iconComponent = isOpen ?  X : Menu;
 </script>
 
+
 <div
-	class = "Panel bg-slate-100 flex flex-col shadow-xl box-border items-center {panelClass} {extraClass}">
+	class = "Panel flex flex-col shadow-xl box-border items-center backdrop-blur-sm border-white bg-white/70 {panelClass} {extraClass}">
 
 
 	 <!-- /* ------------------------------ PANEL HEADER ------------------------------ */ -->
@@ -56,7 +57,7 @@
 
 	<!-- /* ------------------------------ PANEL CONTENT ----------------------------- */ -->
 	{#if isDashboardOpen || !isMainLayout }
-		<div class = "PanelContent m-3 overflow-y-auto h-[100%]">
+		<div class = "PanelContent m-3 overflow-y-auto h-[100%] ">
 			<slot />
 		</div>
 	{/if}
