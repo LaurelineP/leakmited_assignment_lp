@@ -1,6 +1,6 @@
 <script>
+	import logo from '$lib/assets/logo.png';
 	import { Menu, X } from 'lucide-svelte';
-
 	let {
 		extraClass = null,
 		isClosable = false,
@@ -12,13 +12,14 @@
 	/* ------------------------------- STYLE LOGIC ------------------------------ */
 	const regularPanelClass = 'rounded absolute';
 	$: dashboardPanelClass = isDashboardOpen 
-		? 'h-100 rounded'
+		? 'h-screen rounded absolute'
 		: 'h-min w-min m-2.5 rounded-full justify-center absolute z-10';
 	$: panelClass = isMainLayout ? dashboardPanelClass: regularPanelClass;
 
 	$: dashboardHeaderClass = isDashboardOpen 
 		? 'w-full bg-[#219EBC] rounded-tr' : ''
 
+	const panelBaseClass = 'Panel flex flex-col shadow-xl box-border items-center backdrop-blur-sm border-white bg-white/90'
 
 	const toggleSidePanel = () => {
 		isOpen = !isOpen;
@@ -29,7 +30,7 @@
 
 
 <div
-	class = "Panel flex flex-col shadow-xl box-border items-center backdrop-blur-sm border-white bg-white/70 {panelClass} {extraClass}">
+	class = "{panelBaseClass} {panelClass} {extraClass}">
 
 
 	 <!-- /* ------------------------------ PANEL HEADER ------------------------------ */ -->
@@ -47,9 +48,7 @@
 				/>
 			</button>
 			{#if isDashboardOpen && title }
-				<h1 class = "Panel_title uppercase ml-10 text-white flex w-100">
-					{title}
-				</h1>
+				<img src = {logo} alt = "company's visual representation" class = "w-40 mx-5" />
 			{/if}
 		{/if}
 	</div>

@@ -1,8 +1,6 @@
 
 
 <script lang="ts">
-
-
 	// import Map from '$lib/components/Map.svelte';
 	import Map from '$lib/components/Map.svelte';
 	import Panel from '$lib/components/Panel.svelte';
@@ -16,6 +14,7 @@
 		{ id: 'widget-map', name: 'map'},
 		{ id: 'widget-smth', name: 'smth'}
 	];
+
 </script>
 
 <svelte:head>

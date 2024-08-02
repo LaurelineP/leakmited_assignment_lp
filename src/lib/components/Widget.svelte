@@ -4,7 +4,7 @@
 
 <div
 	{id}
-	class="Widget shadow-xl w-80 h-40 bg-slate-100 rounded m-3 p-6"
+	class="Widget shadow-xl w-[250px] h-[130px] bg-slate-100 rounded m-3 p-6"
 	>
 	<h1>{name}</h1>
 </div>
