@@ -1,5 +1,5 @@
 {
-	"name": "leakmited-test",
+	"name": "leakmited_assignment",
 	"author": "Laureline Paris",
 	"version": "0.0.1",
 	"private": true,
@@ -13,7 +13,10 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"test:integration": "playwright test",
-		"test:unit": "vitest"
+		"test:unit": "vitest",
+		"deploy-preview": "netlify deploy -d ./svelte-kit/output",
+		"deploy-production": "netlify deploy -d ./svelte-kit/output --prod",
+		"deploy": "npm run build && npm run deploy-production"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
@@ -21,11 +24,13 @@
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@types/eslint": "^9.6.0",
-		"@types/leaflet": "^1.9.12",
 		"autoprefixer": "^10.4.19",
 		"eslint": "^9.0.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.36.0",
+		"flowbite": "^2.5.1",
+		"flowbite-svelte": "^0.46.15",
+		"flowbite-svelte-icons": "^1.6.1",
 		"globals": "^15.0.0",
 		"postcss": "^8.4.40",
 		"prettier": "^3.1.1",
@@ -42,13 +47,8 @@
 	"dependencies": {
 		"@types/mapbox-gl": "^3.4.0",
 		"axios": "^1.7.2",
-		"leaflet": "^1.9.4",
 		"lucide-svelte": "^0.417.0",
 		"mapbox-gl": "^3.5.2",
-		"maplibre-gl": "^4.5.0",
-		"mbtiles-extracts": "^1.1.0",
-		"osmtogeojson": "3.0.0-beta.5",
-		"shpjs": "^6.0.1",
-		"svelte-leaflet": "^0.2.0"
+		"maplibre-gl": "^4.5.0"
 	}
 }
