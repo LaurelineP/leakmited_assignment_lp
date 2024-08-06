@@ -31,9 +31,15 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true" />
 	<link
+		rel="preload" as="style"
 		href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
-		rel="stylesheet"
 	/>
+	<noscript>
+		<link
+		  rel="stylesheet"
+		  href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
+		/>
+	</noscript>
 </svelte:head>
 
 <main id="App" class="h-screen w-full flex">
