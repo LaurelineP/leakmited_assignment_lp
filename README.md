@@ -5,7 +5,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1ea58664-7496-41c1-bb1a-c83fa108ca7a/deploy-status)](https://app.netlify.com/sites/leakmited-lp/deploys)
 
-## Test & Goal
+## 📌 Test & Goal
 Resource to consider - IDF : https://download.geofabrik.de/europe/france/ile-de-france.html
 
 The goal here is to assess your technical ability to integrate in the best conditions with our
@@ -13,22 +13,7 @@ team as this is what we do at Leakmited: **displaying data on a Map and interact
 this test you will write an App in **Sveltekit** where you will **display a Dashboard** with **stats** and
 **data** on a map.
 
-## Due time :
-
-You’ll have up to 2 week to do the test
-
-### Contact :
-
-If you have any questions, do not hesitate to contact
-sebastien.mounier@leakmited.com
-
-### Delivery :
-
-Upload the code in any hosted version control service of your choice and give us
-access to it
-
-### Input: ile de france road network
-
+### 📂 Input: ile de france road network
 TODOs (by order of priority)
 
 - **Display on a Map** the roads of **Ile-de-France**
@@ -45,13 +30,29 @@ you will have once you join our team to fix the water loss Challenge !
 
 <hr>
 
-## Installation & requirement
 
+## 🚀 Installation & requirement
 - `.env` and `.env.production` files should be created
 - installation: `pnpm install`
 - launch: `pnpm dev`
 
-## Development & problematics
+## ⚙️ Stack
+- pnpm 
+- JS
+- TailwindCSS
+- Svelte
+- SvelteKit
+- Mapbox Gl
+- Flowbite
+- Netlify
+
+
+## 💻 TL;DR - Details - Development & problematics
+- Web first development - no mobile
+- Perf could be improved
+- Test could have been added
+- Finding Flowbite TS
+--> Main concerns through development: implementing features
 
 - [x] [ Dashboard ]
   - contains:
@@ -109,3 +110,5 @@ you will have once you join our team to fix the water loss Challenge !
     [ feature concept ] handling dynamic data, data binding / data visualization  
     [ would have like to do ] more feature on the pie interactivity
       - on hover / on part of the donut selected --> the map should displays the corresponding one
+     
+
