@@ -1,6 +1,8 @@
 # Leakmited hiring process for the Full-Stack position
 
-[WebApp Live](https://leakmited-lp.netlify.app/)  
+## [WebApp Live](https://leakmited-lp.netlify.app/)  
+<img width="1492" alt="image" src="https://github.com/user-attachments/assets/c0196f22-d417-477b-ac5f-4e450de11be5">
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1ea58664-7496-41c1-bb1a-c83fa108ca7a/deploy-status)](https://app.netlify.com/sites/leakmited-lp/deploys)
 
 ## Test & Goal
