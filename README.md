@@ -1,8 +1,10 @@
 # Leakmited hiring process for the Full-Stack position
 
-https://download.geofabrik.de/europe/france/ile-de-france.html
+[WebApp Live](https://leakmited-lp.netlify.app/)  
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1ea58664-7496-41c1-bb1a-c83fa108ca7a/deploy-status)](https://app.netlify.com/sites/leakmited-lp/deploys)
 
 ## Test & Goal
+Resource to consider - IDF : https://download.geofabrik.de/europe/france/ile-de-france.html
 
 The goal here is to assess your technical ability to integrate in the best conditions with our
 team as this is what we do at Leakmited: **displaying data on a Map and interacting with it**. In
