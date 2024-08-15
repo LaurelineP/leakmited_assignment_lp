@@ -45,7 +45,7 @@ you will have once you join our team to fix the water loss Challenge !
 
 ## Installation & requirement
 
-- `.env` file with `VITE_MAPBOX_TOKEN=<your-token>`
+- `.env` and `.env.production` files should be created
 - installation: `pnpm install`
 - launch: `pnpm dev`
 
