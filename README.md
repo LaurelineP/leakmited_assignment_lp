@@ -1,5 +1,7 @@
 # Leakmited hiring process for the Full-Stack position
 
+![My Skills](https://skillicons.dev/icons?i=svelte,netlify,js,tailwind,typescript,mapbox)
+
 ## [WebApp Live](https://leakmited-lp.netlify.app/)  
 <img width="1492" alt="image" src="https://github.com/user-attachments/assets/c0196f22-d417-477b-ac5f-4e450de11be5">
 
